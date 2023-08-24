@@ -1,4 +1,5 @@
 import gliderImg from './assets/images/pexels-pixabay-416784.jpg';
+import img from './logo.svg';
 import './App.css';
 
 function App() {
