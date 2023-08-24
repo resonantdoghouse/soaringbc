@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import gliderImg from './assets/images/pexels-pixabay-416784.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1>Welcome to Soaring BC</h1>
+      <p>A hobby site about interests in flying Gliders.</p>
+      <img
+        className="glider-img"
+        src={gliderImg}
+        alt="glider soaring in the sky"
+      />
+      <p>
+        Learn to fly a glider in beautiful Hope BC with the{' '}
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://vancouversoaring.com/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          Vancouver Soaring Association
         </a>
-      </header>
+      </p>
     </div>
   );
 }
