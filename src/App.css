@@ -7,5 +7,10 @@ img {
 }
 
 .glider-img {
-  max-width: 680px;
+  width: 680px;
+  max-width: 100%;
+}
+
+iframe {
+  max-width: 100%;
 }
